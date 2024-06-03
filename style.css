@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    font-family: Segoe Ui;
+    background-color: #c6c4ee;
+  }
+  
+  .container {
+    width: 80vw;
+    margin: auto;
+    max-width: 430px;
+  }
+  
+  h2 {
+    margin: 15px 0px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    background-color: #142152;
+    color: white;
+    overflow: hidden;
+  }
+  
+  form {
+    background-color: #142152;
+    display: flex;
+    margin: 15px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 0px;
+    overflow: hidden;
+  }
+  
+  .forminput {
+    padding: 5px;
+    font-size: 15px;
+    width: 150px;
+    border: solid white 2px;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 0px 5px;
+    margin-left: 3px;
+    width: 40px;
+    height: 31px;
+    cursor: pointer;
+    font-weight: bold;
+    border: solid white 1px;
+    border-radius: 5px;
+    background-color: #142152;
+    color: white;
+  }
+  .btn:hover {
+    background-color: #050c25;
+  }
+  
+  .list {
+    background-color: #142152;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  span {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  #incomplete,
+  #completed {
+    margin: 5px;
+    min-height: 150px;
+    max-height: 150px;
+    list-style: none;
+    border: solid white 1px;
+    border-radius: 10px;
+    overflow: auto;
+  }
+  
+  #incomplete {
+    margin-bottom: 30px;
+  }
+  
+  .todo-list {
+    padding: 3px 0;
+    margin: 10px;
+    overflow: hidden;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
